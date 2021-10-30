@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter</title>
+</head>
+<body>  
+    <h1>Counter</h1>
+    <h2> {{ add }} time(s)</h2>
+
+    <form action='/add2' method="POST" name="add">
+        <button>Add 2</button>
+    </form>    
+
+    <!-- <form action='/manually' method="POST" name="increment" >
+        <label for="increment">Manually Add Visits</label>
+        <input type="number"  id="increment">
+    </form>  -->
+
+    <form  action="/destroy_session" method="POST" name="destroy_session" >
+        <button id="reset">Reset</button>
+    </form>
+</body>
