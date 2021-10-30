@@ -1,0 +1,23 @@
+.countbox{
+    border: solid 8px rgb(120,144,169);
+    border-radius: 20px;
+    width: 200px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.txt{
+    text-align: center;
+    color: royalblue;
+}
+.buttons{
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 10px 15px;
+}
+
+.btn{
+    color: white;
+    background-color: rgb(89,209,245);
+    padding: 10px;
+}
